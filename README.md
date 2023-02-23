@@ -12,3 +12,13 @@ composer install
 php artisan migrate:fresh
 php artisan serve
 ```
+## Then Open a new terminal 
+
+```bash
+php artisan schedule:work
+or
+php artisan schedule:run
+```
+To Start processing Jobs
+
+To add jobs in queue Open http://127.0.0.1:8000/ click on add jobs to queue button
